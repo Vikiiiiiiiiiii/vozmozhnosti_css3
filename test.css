@@ -198,3 +198,102 @@ body {
   right: 50px;
   left: auto;
 }
+
+.banner, .item-sec{
+  margin-bottom: 200px;
+}
+
+.card-dsc{
+  margin-bottom: 60px;
+}
+
+.item{
+  width: 263px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.card-link{
+  width: 163px;
+}
+
+.item:hover{
+  box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.15);
+}
+
+.item-img{
+  width: 100%;
+}
+
+.txt-box{
+  padding: 20px;
+}
+
+.item-dsc{
+  margin-bottom: 20px;
+  font-family: Lato;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.card-link{
+  text-decoration: none;
+  display: block;
+}
+
+.iten-price{
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f16d7f;
+}
+
+.item:hover .item-img{
+  filter: brightness(30%);
+}
+
+.add{
+  display: none;
+  padding: 8px;
+  font-family: Lato;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  align-items: center;
+  border: 1px solid #fff;
+  pointer-events: all;
+}
+
+.add-box{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 98px;
+  width: 100%;
+  pointer-events: none;
+}
+
+.add-img{
+  margin-right: 10px;
+}
+
+.add:hover{
+  box-shadow: 0px 0px 10px 0px #fff;
+}
+
+.item:hover .add{
+  display: flex;
+}
+
+.item-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
